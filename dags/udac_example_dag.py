@@ -6,6 +6,7 @@ from airflow.operators import (StageToRedshiftOperator,
                                LoadFactOperator,
                                LoadDimensionOperator,
                                DataQualityOperator)
+
 from helpers import SqlQueries
 
 default_args = {
